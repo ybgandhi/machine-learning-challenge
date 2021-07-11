@@ -8,4 +8,8 @@
 
 ### Tune Model Parameters
 * Assigned X and Y values for the model to be able to slit data to get training and testing data for the model
+* Normalized and scale date to create an accurate model that has a minimal gap between data points by ensuring all have accurate weights. StandardScaler proved to be the best to scale the data.
+* Used GridSearchCV to tune the model's parameters and change the grid parameters "C" and "gamma" didn't yield any significant score improvement
 
+### Reporting
+* SVM produced uninspiring results of "0.8888044957393081"
