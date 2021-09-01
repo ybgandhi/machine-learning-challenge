@@ -7,10 +7,17 @@ Over a period of nine years in deep space, the NASA Kepler space telescope has b
 ### Libraries / Dependencies
 * sklearn (ML)
     * .model_selection
-    * train_test_split
-    * LabelEncoder, MinMaxScaler, StandardScaler
+      * train_test_split
+      * LabelEncoder
+      * MinMaxScaler
+      * StandardScaler
+      * GridSearchCV
+    * .svm
+      * SVC
 * tensorflow
-    *
+    * .keras.utils
+      * to_categorical
+* joblib (sav file)
 * pandas
 
 
